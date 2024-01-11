@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rhtap-prototype
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/rhtap-prototype/rhtap-prototype@sha256:928a0eed2c6cc5e59310cb3524ad8d0c52bcc26efcb15f227b16c63aaef1cab9
+      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/rhtap-prototype/rhtap-prototype@sha256:98bc301fa98d0d2baaa3559a00e2d2b4a6843c3893f84fec31fe2c898872fe8a
         imagePullPolicy: Always
         name: container-image
         resources: {}

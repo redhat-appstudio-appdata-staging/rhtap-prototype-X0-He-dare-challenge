@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rhtap-prototype
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/rhel-bootc-tenant/rhtap-prototype/rhtap-prototype@sha256:daca60e85c067de1843dadde63e711f17f810baf494766f1ead0e162c92ecf29
+        name: container-image
+        resources: {}
+status: {}
